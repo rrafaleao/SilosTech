@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilosTech</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .navbar {
+            background-color: rgba(0, 14, 56, 0.753);
+            color: white;
+            margin: 0 0 2px 0;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 30px;
+        }
+        .logo {
+            margin: 0;
+            font-size: 24px;
+        }
+        .itens {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-left: 100px;
+
+        }
+        .item {
+            padding: 15px;
+        }
+
+        .primeira-sec {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        .imagem img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .sec-textos {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 2;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .section-titulo {
+        font-size: 48px;
+        margin-bottom: 1rem;
+        }
+
+        .section-p {
+        font-size: 20px;
+        margin-bottom: 24px;
+        }
+
+        .section-button{
+            width: 250px;
+            border-radius: 10px;
+            border: none;
+            padding: 15px;
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="top-bar">
+            <h1 class="logo"> SilosTech</h1>
+            <ul class="itens">
+                <li class="item"> Inicio </li>
+                <li class="item"> Sobre Nós</li>
+                <li class="item"> Produtos</li>
+                <li class="item"> Diferenciais</li>
+                <li class="item"> Meio Ambiente</li>
+                <li class="item"> Depoimentos </li>
+                <li class="item"> Representantes </li>
+                <li class="item"> Contatos </li>
+            </ul>
+        </div>
+    </nav>
+
+<section class="primeira-sec">
+    <div class="imagem">
+        <img src="images/hero_banner.jpeg" class="hero-banner"> 
+    </div>
+    <div class="sec-textos">
+        <h1 class="section-titulo"> SilosTech: Inovação e segurança para sua Colheita</h1>
+        <p class="section-p"> Construimos o futuro do agronegocio com silos de alta perfomance</p>
+        <button class="section-button">Conheça Nossas soluções</button>
+    </div>
+</section>
+
+<section class="sobre">
+    <div class="sobre-empresa">
+        <h1 class="titulo-sobre"> Sobre a SilosTech</h1>
+        <p class="texto-sobre"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ad expedita excepturi rem voluptate cumque error corrupti voluptatibus, minus incidunt quos maxime amet, culpa vitae placeat laudantium a nam hic!
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
