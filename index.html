@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SilosTech</title>
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -100,7 +98,7 @@
 
 <section class="depoimentos">
     <div class="container">
-        <h2>Depoimentos</h2>
+        <h2>Depoimentos De Clientes</h2>
         <div class="depoimentos-grid">
             <blockquote>
                 <p>"A SilosTech revolucionou nossa gestão de grãos com tecnologia imbatível!"</p>
@@ -134,23 +132,28 @@
     </div>
 
 <section class="contato">
-    <div class="container">
-        <h2>Entre em Contato</h2>
-        <div class="contato-content">
-            <form class="contato-form">
-                <input type="text" placeholder="Nome" required>
-                <input type="email" placeholder="E-mail" required>
-                <textarea placeholder="Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
+    <h2 class="contato-titulo">Entre em contato</h2>
+    <div class="contato-container">
+        <div class="formulario">
+            <form>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text">
+                
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+                
+                <label for="mensagem">Mensagem:</label>
+                <input id="mensagem" type="text">
+                
+                <button type="submit">Enviar Mensagem</button>
             </form>
-            <div class="mapa">
-                <img src="images/mapa.jpg" alt="Localização da Sede">
-                <address>
-                    Rua das Colheitas, 1234<br>
-                    Campo Grande - MS<br>
-                    CEP: 79000-000
-                </address>
-            </div>
+        </div>
+        <div class="localizacao">
+            <h4 class="localizacao-titulo">Nossa localização</h4>
+            <p>Rua da Inovação, 123 - Distrito Industrial</p>
+            <p>AgroCidade - AG</p>
+            <p>CEP: 12345-678</p>
+            <p>Telefone: (YY) YYYY-YYYY</p>
         </div>
     </div>
 </section>
